@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Details</title>
+    <link rel="stylesheet" href="recipe.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+</head>
+<body>
+    <header>
+      <div class="head">
+        <div class="brandname">Foodieland</div>
+
+        <div class="headlinks">
+          <div class="menu-btn" onclick="toggleMenu()">☰</div>
+          <ul id="navList">
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="recipes.html">Recipes</a></li>
+            <li><a href="blogs.html">Blog</a></li>
+            <li><a href="">Contact</a></li>
+            <li><a href="">About us</a></li>
+          </ul>
+        </div>
+
+        <div class="icon">
+          <a href=""><i class="bi bi-facebook"></i></a>
+          <a href=""><i class="bi bi-twitter"></i></a>
+          <a href=""><i class="bi bi-instagram"></i></a>
+        </div>
+      </div>
+      <hr>
+    </header>
+    <section class="recipe-detail">
+
+  <!-- HEADER -->
+  <div class="recipe-header">
+    <div class="recipe-title">
+      <h1>Health Japanese Fried Rice</h1>
+
+      <div class="recipe-meta">
+        <div class="author">
+          <img src="assets/img3.png" alt="">
+          <div>
+            <strong>John Smith</strong>
+            <span>15 March 2022</span>
+          </div>
+        </div>
+
+        <div class="meta-box">
+          <img src="assets/time.svg" alt="">
+          <div>
+            <strong>PREP TIME</strong>
+            <span>15 Minutes</span>
+          </div>
+        </div>
+
+        <div class="meta-box">
+          <img src="assets/time.svg" alt="">
+          <div>
+            <strong>COOK TIME</strong>
+            <span>15 Minutes</span>
+          </div>
+        </div>
+
+        <div class="meta-box">
+          <img src="assets/fork.svg" alt="">
+          <div>
+            <strong>Category</strong>
+            <span>Chicken</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="recipe-actions">
+      <button>
+        <img src="assets/print.svg" alt="">
+        Print
+      </button>
+      <button>
+        <img src="assets/share.svg" alt="">
+        Share
+      </button>
+    </div>
+  </div>
+
+  <!-- CONTENT -->
+  <div class="recipe-content">
+
+    <!-- IMAGE -->
+    <div class="recipe-image">
+      <img src="assets/img38.png" alt="">
+      <div class="play-btn">
+        ▶
+      </div>
+    </div>
+
+    <!-- NUTRITION -->
+    <div class="nutrition-card">
+      <h3>Nutrition Information</h3>
+
+      <ul>
+        <li><span>Calories</span><strong>219.9 kcal</strong></li>
+        <li><span>Total Fat</span><strong>10.7 g</strong></li>
+        <li><span>Protein</span><strong>7.9 g</strong></li>
+        <li><span>Carbohydrate</span><strong>22.3 g</strong></li>
+        <li><span>Cholesterol</span><strong>37.4 mg</strong></li>
+      </ul>
+
+      <p class="nutrition-note">
+        adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </p>
+    </div>
+
+  </div>
+
+</section>
+<section class="recipe-section">
+  <div class="container">
+
+    <!-- LEFT COLUMN -->
+    <div class="ingredients">
+      <h2>Ingredients</h2>
+
+      <div class="ingredient-group">
+        <h4>For main dish</h4>
+        <ul>
+          <li><span class="check"></span>Lorem ipsum dolor sit amet</li>
+          <li><span class="check"></span>Lorem ipsum dolor sit amet</li>
+          <li><span class="check"></span>Lorem ipsum dolor sit amet</li>
+          <li><span class="check"></span>Lorem ipsum dolor sit amet</li>
+        </ul>
+      </div>
+
+      <div class="ingredient-group">
+        <h4>For the sauce</h4>
+        <ul>
+          <li><span class="check"></span>Lorem ipsum dolor sit amet</li>
+          <li><span class="check"></span>Lorem ipsum dolor sit amet</li>
+          <li><span class="check"></span>Lorem ipsum dolor sit amet</li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <aside class="other-recipe">
+      <h3>Other Recipe</h3>
+
+      <div class="recipe-card">
+        <img src="https://images.unsplash.com/photo-1604908554162-38f5c5a0f58c" alt="">
+        <div>
+          <h5>Chicken Meatball with Creamy Cheese...</h5>
+          <p>By Chef John</p>
+        </div>
+      </div>
+
+      <div class="recipe-card">
+        <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2" alt="">
+        <div>
+          <h5>The Creamiest Creamy Chicken an...</h5>
+          <p>By Chef Anna</p>
+        </div>
+      </div>
+
+      <div class="recipe-card">
+        <img src="https://images.unsplash.com/photo-1540189549336-e6e99c3679fe" alt="">
+        <div>
+          <h5>The Best Easy One Pot Chicken and Rice</h5>
+          <p>By Chef Mike</p>
+        </div>
+      </div>
+
+      <div class="promo">
+        <p>Don’t forget to eat healthy food</p>
+        <span>www.foodnetwork.com</span>
+      </div>
+    </aside>
+
+  </div>
+</section>
+<section class="directions">
+  <div class="directions-container">
+
+    <h2 class="directions-title">Directions</h2>
+
+    <!-- STEP 1 -->
+    <div class="step">
+      <div class="step-title">
+        <span class="circle"></span>
+        <h4>1. Lorem ipsum dolor sit amet</h4>
+      </div>
+
+      <p class="step-text">
+        Nunc enim ipsum volutpat orci vulputate id suspendisse ut odio ut,
+        sed quis consectetur magna. Orci tortor consequat volutpat sagittis
+        vitae, egestas vitae tincidunt. Vestibulum sed risus non nunc
+        fermentum aliquet sed in dolor.
+      </p>
+
+      <div class="step-image">
+        <img
+          src="assets/img39.png"
+          alt="Cooking direction image"
+        />
+      </div>
+
+      <p class="step-text">
+        Nunc enim ipsum volutpat orci vulputate id suspendisse ut odio ut,
+        sed quis consectetur magna. Orci tortor consequat volutpat sagittis
+        vitae, egestas vitae tincidunt.
+      </p>
+    </div>
+
+    <!-- STEP 2 -->
+    <div class="step">
+      <div class="step-title">
+        <span class="circle"></span>
+        <h4>2. Lorem ipsum dolor sit amet</h4>
+      </div>
+
+      <p class="step-text">
+        Nunc enim ipsum volutpat orci vulputate id suspendisse ut odio ut,
+        sed quis consectetur magna. Orci tortor consequat volutpat sagittis
+        vitae, egestas vitae tincidunt.
+      </p>
+    </div>
+
+    <!-- STEP 3 -->
+    <div class="step">
+      <div class="step-title">
+        <span class="circle"></span>
+        <h4>3. Lorem ipsum dolor sit amet</h4>
+      </div>
+
+      <p class="step-text">
+        Nunc enim ipsum volutpat orci vulputate id suspendisse ut odio ut,
+        sed quis consectetur magna. Orci tortor consequat volutpat sagittis
+        vitae, egestas vitae tincidunt.
+      </p>
+    </div>
+
+  </div>
+</section>
+<!-- NEWSLETTER SECTION -->
+  <section class="newsletter">
+    <img src="assets/img27.png" class="decor left-decor" alt="">
+    <img src="assets/img23.png" class="decor right-decor" alt="">
+
+    <h2>Deliciousness to your inbox</h2>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+      incididunt ut labore et dolore magna aliqua ad minim.
+    </p>
+
+    <form class="newsletter-form">
+      <input type="email" placeholder="Your email address..." />
+      <button type="submit">Subscribe</button>
+    </form>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <h3>Foodieland.</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+      </div>
+
+      <ul class="footer-links">
+        <li><a href="recipes.html">Recipes</a></li>
+        <li><a href="blogs.html">Blog</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">About us</a></li>
+      </ul>
+    </div>
+
+    <hr />
+
+    <div class="footer-bottom">
+      <p>© 2020 Flowbase. Powered by Webflow</p>
+
+      <div class="footer-socials">
+        <a href="#"><img src="assets/facebook.svg" alt=""></a>
+        <a href="#"><img src="assets/twitter.svg" alt=""></a>
+        <a href="#"><img src="assets/instagram.svg" alt=""></a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
